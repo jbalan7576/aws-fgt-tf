@@ -8,7 +8,7 @@ variable "region" {
 
 // Availability zones for the region
 variable "az1" {
-  default = "ap-south-2a"
+  default = "ap-south-2b"
 }
 
 variable "vpccidr" {
