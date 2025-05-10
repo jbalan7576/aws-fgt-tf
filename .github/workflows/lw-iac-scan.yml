@@ -34,7 +34,7 @@ jobs:
               run: |
                 env | grep "GITHUB_\|LW_\|CI_" > env.list
                 echo "LW_ACCOUNT=${{ secrets.LW_ACCOUNT }}" >> env.list
-                echo $LW_ACCOUNT
+                echo LW_ACCOUNT
                 echo "LW_API_KEY=${{ secrets.LW_API_KEY }}" >> env.list
                 echo "LW_API_SECRET=${{ secrets.LW_API_SECRET }}" >> env.list
                 echo "EXIT_FLAG=Critical=1" >> env.list
